@@ -16,5 +16,5 @@
     7) returns "I love you, too." if `string` is "I love you, Grandma."`
     
     var shout = (string) = > {
-      return str.toUpp
+      return str.toUpperCase();
     }
