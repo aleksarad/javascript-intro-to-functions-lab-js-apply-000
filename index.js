@@ -14,6 +14,8 @@
 //     7) returns "I love you, too." if `string` is "I love you, Grandma."`
     
   function shout(string) {
-    return str.toUpperCase();
+    return str.toUpperCase()
   } 
     
+    var whisper = (string) => { return str.toLowerCase(); 
+    }
