@@ -6,10 +6,13 @@
 //     7) returns "I love you, too." if `string` is "I love you, Grandma."`
 
 function sayHiToGrandma(str){
-  if(str == str.toLowerCase) {
+  if(str === str.toLowerCase) {
     return `I can't hear you!`;
   }
-  else if()
+  else if(str === `I love you, Grandma`) {
+    return `I love you, too.`;
+  }
+  return `YES INDEED!`;
 }
 
 // reguluar
