@@ -1,15 +1,5 @@
 
 
-function sayHiToGrandma(str){
-  if(str === str.toLowerCase()) {
-    return `I can't hear you!`;
-  }
-  else if(str === `I love you, Grandma.`) {
-    return `I love you, too.`;
-  }
-  return `YES INDEED!`;
-}
-
 // reguluar
 function shout(string) {
   return string.toUpperCase();
@@ -26,4 +16,14 @@ function logShout(str) {
 
 function logWhisper(str) {
   console.log(str.toLowerCase());
+}
+
+function sayHiToGrandma(str){
+  if(str === str.toLowerCase()) {
+    return `I can't hear you!`;
+  }
+  else if(str === `I love you, Grandma.`) {
+    return `I love you, too.`;
+  }
+  return `YES INDEED!`;
 }
