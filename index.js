@@ -5,7 +5,12 @@
 //     6) returns "YES INDEED!" if `string` is uppercase
 //     7) returns "I love you, too." if `string` is "I love you, Grandma."`
 
-function
+function sayHiToGrandma(str){
+  if(str == str.toLowerCase) {
+    return `I can't hear you!`;
+  }
+  else if()
+}
 
 // reguluar
 function shout(string) {
