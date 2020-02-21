@@ -13,7 +13,7 @@
 //     6) returns "YES INDEED!" if `string` is uppercase
 //     7) returns "I love you, too." if `string` is "I love you, Grandma."`
     
-  function shout()
+  function shout(string) {
+    return str.toUpperCase();
+  } 
     
-    var whisper = (string) => { return str.toLowerCase(); 
-    }
