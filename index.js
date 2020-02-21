@@ -15,4 +15,6 @@
     6) returns "YES INDEED!" if `string` is uppercase
     7) returns "I love you, too." if `string` is "I love you, Grandma."`
     
-    
+    var shout = (string) = > {
+      
+    }
