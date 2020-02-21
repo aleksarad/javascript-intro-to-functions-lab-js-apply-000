@@ -7,20 +7,20 @@
 
 function
 
-  // reguluar
-  function shout(string) {
-    return string.toUpperCase();
-  } 
-  
-  // arrow
-  var whisper = (string) => { 
-    return string.toLowerCase(); 
-  }
-  
-  function logShout(str) {
-    console.log(str.toUpperCase());
-  }
-  
-  function logWhisper(str) {
-    console.log(str.toLowerCase());
-  }
+// reguluar
+function shout(string) {
+  return string.toUpperCase();
+} 
+
+// arrow
+var whisper = (string) => { 
+  return string.toLowerCase(); 
+}
+
+function logShout(str) {
+  console.log(str.toUpperCase());
+}
+
+function logWhisper(str) {
+  console.log(str.toLowerCase());
+}
